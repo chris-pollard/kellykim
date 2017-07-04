@@ -216,11 +216,16 @@ input .value {
 }
 
 @media screen and (max-width: 470px) {
+  .box_2 {
+    margin-top: 40px;
+  }
+
   h1 {
     font-family: 'Megrim', cursive;
     font-size: 5rem;
     margin: 0;
     color: #608684;
+    padding-bottom: 2rem;
   }
 
   .sewing {
@@ -279,5 +284,9 @@ input .value {
 
   .divider {
     display: none;
+  }
+
+  .box_1 {
+    visibility: hidden;
   }
 }
