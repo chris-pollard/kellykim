@@ -67,6 +67,7 @@ h1 {
   font-size: 6rem;
   margin: 0;
   color: #608684;
+  font-weight: 800;
 }
 
 h2 {
@@ -108,6 +109,7 @@ span {
 .GetInTouch p,
 .GetInTouch h2 {
   color: #F7F7F7;
+  padding: 0.5rem 0;
 }
 
 footer {
@@ -144,6 +146,7 @@ input {
   text-align: center;
   width: 12rem;
   padding: 10px;
+  margin: 0.5rem 0;
 }
 
 input .value {
@@ -154,7 +157,7 @@ input .value {
   border-radius: 4px;
   background-color: #F9DA8A;
   border: none;
-  color: #2F2513;
+  color: #B09154;
   text-align: center;
   padding: 12px;
   width: 12rem;
@@ -191,6 +194,11 @@ input .value {
 
 #projects {
   width: 22rem;
+  margin-top: 2rem;
+}
+
+.bottom {
+  padding-bottom: 1rem;
 }
 
 @media screen and (max-width: 1025px),(min-width: 471px) {
@@ -249,9 +257,9 @@ input .value {
     align-items: center;
   }
 
-#projects {
+  #projects {
   width: 80%;
-}
+  }
 
   input {
     margin-bottom: 1rem;
