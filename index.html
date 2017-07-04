@@ -12,10 +12,10 @@
 <div class="box_1">
 <img class="wool" src="./resources/images/wool.png" alt="">
 <div class="social">
-  <a href="#"><img class="socialcon" src="./resources/images/facebook.png" alt=""></a>
-  <a href="#"><img class="socialcon" src="./resources/images/instagram.png" alt=""></a>
-  <a href="#"><img class="socialcon" src="./resources/images/twitter.png" alt=""></a>
-  <a href="#"><img class="socialcon" src="./resources/images/email.png" alt=""></a>
+  <a class="fa facebook" href="https://web.facebook.com/Kelly8Kim"><img class="socialcon" src="./resources/images/facebook.png" alt=""></a>
+  <a class="fa instagram" href="https://www.instagram.com/dissolvido/"><img class="socialcon" src="./resources/images/instagram.png" alt=""></a>
+  <a class="fa twitter" href="#"><img class="socialcon" src="./resources/images/twitter.png" alt=""></a>
+  <a class="fa email" href="mailto:oficinadakelly@gmail.com"><img class="socialcon" src="./resources/images/email.png" alt=""></a>
 </div>
 </div>
 <div class="box_2">
@@ -25,16 +25,30 @@
 </div>
 <div class="intro">
   <p>Dividir, compartilhar, apresentar, simplificar, inventar, conversar, encontrar seus pontos fortes e ajudar a contar a sua historia, verdadeira e moderna, inspirar sua equipe e emocionar seus clientes.</p>
-  <p>Saiba mais sobre meus <b>projetos<b/></p>
+  <button id="projects" class="button"><span>Saiba mais sobre meus projetos </span></button>
 </div>
 <div class="GetInTouch">
   <!-- INSERT IMAGE -->
   <h2>Get in touch.</h2>
   <p>Find out more about how I can help.</p>
-  <p>Enter your email</p>
-
+  <input type="text" value="Your email" onblur="if(this.value == '') { this.value='Your email'}" onfocus="if (this.value == 'Your email') {this.value=''}">
+  <button class="button"><span>Submit </span></button>
 </div>
 <footer>
+    <nav>
+      <span><a href="#">More About Me</a></span>
+      <span class="divider" ><a href="#">  |  </a></span>
+      <span><a href="#">Pesquisa De Moda</a></span>
+      <span class="divider" ><a href="#">  |  </a></span>
+      <span><a href="#">Other Projects</a></span>
+    </nav>
+    <div class="social">
+      <a class="fa facebook" href="https://web.facebook.com/Kelly8Kim"><img class="socialcon" src="./resources/images/facebook.png" alt=""></a>
+      <a class="fa instagram" href="https://www.instagram.com/dissolvido/"><img class="socialcon" src="./resources/images/instagram.png" alt=""></a>
+      <a class="fa twitter" href="#"><img class="socialcon" src="./resources/images/twitter.png" alt=""></a>
+      <a class="fa email" href="mailto:oficinadakelly@gmail.com"><img class="socialcon" src="./resources/images/email.png" alt=""></a>
+    </div>
+    <p>© 2017 Copyright Kelly Kim</p>
 </footer>
   </body>
 </html>

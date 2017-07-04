@@ -23,13 +23,17 @@ $color5: rgba(157, 129, 137, 1);
   width: 100%;
   z-index: 10;
   background-color: #F7F7F7;
-  border-bottom: 1px solid #C3D1D1;
+  border-bottom: 1px solid #F2F0E8;
   top: 0;
 }
 
 .socialcon {
   width: 30px;
   padding: 0 10px;
+}
+
+.fa:hover {
+  opacity: 0.3;
 }
 
 .box_2 {
@@ -53,15 +57,16 @@ body {
 }
 
 h2,
-h1,
-p {
-  color: #AFC2C1;
+p,
+span a {
+  color: #608684;
 }
 
 h1 {
   font-family: 'Megrim', cursive;
   font-size: 6rem;
   margin: 0;
+  color: #608684;
 }
 
 h2 {
@@ -70,7 +75,8 @@ h2 {
   margin: 0;
 }
 
-p {
+p,
+span {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5rem;
 }
@@ -91,6 +97,7 @@ p {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 .GetInTouch {
@@ -104,5 +111,161 @@ p {
 }
 
 footer {
-  padding: 75px 0;
+  padding: 0;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+span a {
+  text-decoration: none;
+}
+
+footer span {
+  padding: 1rem 2rem;
+}
+
+footer p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+input {
+  border: none;
+  height: 1.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #9BB3B2;
+  font-size: 1.25rem;
+  border-radius: 4px;
+  text-align: center;
+  width: 12rem;
+  padding: 10px;
+}
+
+input .value {
+  font-size: 1.25rem;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #F9DA8A;
+  border: none;
+  color: #2F2513;
+  text-align: center;
+  padding: 12px;
+  width: 12rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-size: 1.25rem;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#projects {
+  width: 22rem;
+}
+
+@media screen and (max-width: 1025px) {
+  .box_1 {
+    height: 60px;
+  }
+
+  h1 {
+    font-size: 8rem;
+  }
+
+  .sewing {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 5rem;
+    margin: 0;
+    color: #608684;
+  }
+
+  .sewing {
+    width: 90%;
+  }
+
+  .socialcon {
+    width: 40px;
+    padding: 0 10px;
+  }
+
+.intro {
+  width: 90%;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .intro p {
+    width: 100%;
+  }
+
+  .GetInTouch {
+    padding: 100px 0;
+    background-color: #9BB3B2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: centre;
+    align-items: center;
+  }
+
+  input {
+    margin-bottom: 1rem;
+  }
+
+  footer nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  footer nav span {
+    padding: 0.5rem 0;
+  }
+
+  .divider {
+    display: none;
+  }
 }
