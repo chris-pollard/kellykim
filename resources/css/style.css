@@ -249,6 +249,10 @@ input .value {
     align-items: center;
   }
 
+#projects {
+  width: 80%;
+}
+
   input {
     margin-bottom: 1rem;
   }
